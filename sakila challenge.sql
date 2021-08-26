@@ -22,6 +22,10 @@ SELECT title FROM film WHERE rating = 'R';
  
  SELECT * FROM film WHERE release_year = 2010;
  
+ SELECT * FROM film_category WHERE AVG(length);
  
+ SELECT title FROM film WHERE category = 'horror';
  
+ SELECT AVG(length) FROM category;
  
+ SELECT name FROM category;
